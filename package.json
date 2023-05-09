@@ -1,0 +1,55 @@
+{
+  "name": "insight-api",
+  "description": "A Ravencoin blockchain REST and web socket API service for Ravencore Node.",
+  "version": "1.0.3",
+  "repository": "git://github.com/underdarkskies/insight-api.git",
+  "contributors": [
+    {
+      "name": "Under",
+      "email": ""
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/underdarkskies/insight-api/issues"
+  },
+  "homepage": "https://github.com/underdarkskies/insight-api",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "insight api",
+    "blockchain",
+    "ravencoin api",
+    "blockchain api",
+    "json",
+    "ravencore"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "main": "lib",
+  "ravencoreNode": "lib",
+  "dependencies": {
+    "async": "*",
+    "bignumber.js": "^4.0.2",
+    "body-parser": "^1.13.3",
+    "compression": "^1.6.1",
+    "lodash": "^2.4.1",
+    "lru-cache": "^4.0.1",
+    "mongoose": "5.1.7",
+    "morgan": "^1.7.0",
+    "ravencore-lib": "gemlink/ravencore-lib",
+    "ravencore-message": "raven-dark/ravencore-message",
+    "request": "^2.83.0"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.2",
+    "should": "^8.3.1",
+    "sinon": "^1.10.3"
+  }
+}
