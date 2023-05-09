@@ -40,7 +40,7 @@
     "lru-cache": "^4.0.1",
     "mongoose": "5.1.7",
     "morgan": "^1.7.0",
-    "ravencore-lib": "gemlink/ravencore-lib",
+    "ravencore-lib": "gemlink/meow-ravencore-lib",
     "ravencore-message": "raven-dark/ravencore-message",
     "request": "^2.83.0"
   },
